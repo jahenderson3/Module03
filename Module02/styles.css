@@ -44,15 +44,19 @@ article{
 }
 
 /* formatting the paragraphs and h2 together with a flex box */
-article p, h2{
+article p {
   clear: both;
   max-width: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 5%;
-  text-align: justify;
+  margin: 5% auto;       
   padding-bottom: 20px;
+  text-align: justify;    
+}
+
+article h2 {
+  clear: both;
+  max-width: 800px;
+  margin: 5% auto;
+  text-align: center;    
 }
 
 article a:link{
